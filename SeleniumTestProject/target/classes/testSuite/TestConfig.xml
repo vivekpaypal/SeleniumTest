@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="5" verbose="1" name="LOLRQATestSuite"
+
+	data-provider-thread-count="1" annotations="JDK" parallel="tests">
+	
+	
+	<parameter name="browser" value="internetexproler" />
+	
+	<parameter name="url" value="www.google.com" />
+	<test name="Test1" annotations="JDK" preserve-order="true">
+	
+		<classes>
+			<class name="com.example.freelance.test.SampleTest"/>
+			
+		</classes>
+		
+	</test>
+	<!-- <test name="Test2" annotations="JDK" preserve-order="true">
+	
+		<classes>
+			<class name="com.example.freelance.test.SampleTest1"/>
+			
+		</classes>
+		
+	</test>
+	<test name="Test3" annotations="JDK" preserve-order="true">
+	
+		<classes>
+			<class name="com.example.freelance.test.SampleTest2"/>
+			
+		</classes>
+		
+	</test> -->
+	
+</suite>
