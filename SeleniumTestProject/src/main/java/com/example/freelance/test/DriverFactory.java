@@ -27,8 +27,10 @@ public class DriverFactory {
 		}
 
 
-		if(browser.equals("internetexproler")){
+		if(browser.equals("internetexplorer”)){
 			
+			File driver = new File(“./src/main/resources/drivers/IEDriverServer.exe“);
+                System.setProperty("webdriver.ie.driver", driver.getAbsolutePath());       
 			return new InternetExplorerDriver();
 			
 		}

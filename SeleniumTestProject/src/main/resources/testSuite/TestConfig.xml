@@ -5,7 +5,7 @@
 	data-provider-thread-count="1" annotations="JDK" parallel="tests">
 	
 	
-	<parameter name="browser" value="firefox" />
+	<parameter name="browser" value=“internet explorer” />
 	
 	<parameter name="url" value="www.google.com" />
 	<test name="Test1" annotations="JDK" preserve-order="true">
