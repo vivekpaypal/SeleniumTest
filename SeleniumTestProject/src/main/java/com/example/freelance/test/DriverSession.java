@@ -9,7 +9,10 @@ public class DriverSession {
 	
 	private  ThreadLocal<WebDriver> session = new ThreadLocal<WebDriver>() {
 		
-		
+		protected WebDriver initialValue() {
+			
+			return DriverFactory.getInstance(config.getBrowser());
+		};
 		
 	};
 	

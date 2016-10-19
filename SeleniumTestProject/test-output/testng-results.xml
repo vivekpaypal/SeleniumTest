@@ -1,46 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="LOLRQATestSuite" duration-ms="13748" started-at="2016-10-19T16:45:28Z" finished-at="2016-10-19T16:45:42Z">
+  <suite name="LOLRQATestSuite" duration-ms="42671" started-at="2016-10-19T17:30:16Z" finished-at="2016-10-19T17:30:59Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="13748" started-at="2016-10-19T16:45:28Z" finished-at="2016-10-19T16:45:42Z">
+    <test name="Test1" duration-ms="42671" started-at="2016-10-19T17:30:16Z" finished-at="2016-10-19T17:30:59Z">
+      <class name="com.example.freelance.test.SnapDealSearchDataDrivenTest">
+        <test-method status="PASS" signature="intiDriver(org.testng.ITestContext)[pri:0, instance:com.example.freelance.test.SnapDealSearchDataDrivenTest@61832929]" name="intiDriver" is-config="true" duration-ms="789" started-at="2016-10-19T23:00:24Z" finished-at="2016-10-19T23:00:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ad3381f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiDriver -->
+        <test-method status="PASS" signature="searchSnapDealDataDriven(java.lang.String)[pri:0, instance:com.example.freelance.test.SnapDealSearchDataDrivenTest@61832929]" name="searchSnapDealDataDriven" duration-ms="4882" started-at="2016-10-19T23:00:24Z" data-provider="searchData" finished-at="2016-10-19T23:00:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSnapDealDataDriven -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.freelance.test.SnapDealSearchDataDrivenTest@61832929]" name="tearDown" is-config="true" duration-ms="109" started-at="2016-10-19T23:00:29Z" finished-at="2016-10-19T23:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="intiDriver(org.testng.ITestContext)[pri:0, instance:com.example.freelance.test.SnapDealSearchDataDrivenTest@61832929]" name="intiDriver" is-config="true" duration-ms="796" started-at="2016-10-19T23:00:29Z" finished-at="2016-10-19T23:00:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ad3381f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiDriver -->
+        <test-method status="PASS" signature="searchSnapDealDataDriven(java.lang.String)[pri:0, instance:com.example.freelance.test.SnapDealSearchDataDrivenTest@61832929]" name="searchSnapDealDataDriven" duration-ms="7232" started-at="2016-10-19T23:00:30Z" data-provider="searchData" finished-at="2016-10-19T23:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSnapDealDataDriven -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.freelance.test.SnapDealSearchDataDrivenTest@61832929]" name="tearDown" is-config="true" duration-ms="114" started-at="2016-10-19T23:00:37Z" finished-at="2016-10-19T23:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="intiDriver(org.testng.ITestContext)[pri:0, instance:com.example.freelance.test.SnapDealSearchDataDrivenTest@61832929]" name="intiDriver" is-config="true" duration-ms="822" started-at="2016-10-19T23:00:38Z" finished-at="2016-10-19T23:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ad3381f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiDriver -->
+        <test-method status="PASS" signature="searchSnapDealDataDriven(java.lang.String)[pri:0, instance:com.example.freelance.test.SnapDealSearchDataDrivenTest@61832929]" name="searchSnapDealDataDriven" duration-ms="6442" started-at="2016-10-19T23:00:38Z" data-provider="searchData" finished-at="2016-10-19T23:00:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[toys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSnapDealDataDriven -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.freelance.test.SnapDealSearchDataDrivenTest@61832929]" name="tearDown" is-config="true" duration-ms="115" started-at="2016-10-19T23:00:45Z" finished-at="2016-10-19T23:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.freelance.test.SnapDealSearchDataDrivenTest -->
+      <class name="com.example.freelance.test.SnapDealSearchTest">
+        <test-method status="PASS" signature="intiDriver(org.testng.ITestContext)[pri:0, instance:com.example.freelance.test.SnapDealSearchTest@1e88b3c]" name="intiDriver" is-config="true" duration-ms="1528" started-at="2016-10-19T23:00:16Z" finished-at="2016-10-19T23:00:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ad3381f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiDriver -->
+        <test-method status="PASS" signature="searchSnapDeal()[pri:0, instance:com.example.freelance.test.SnapDealSearchTest@1e88b3c]" name="searchSnapDeal" duration-ms="5482" started-at="2016-10-19T23:00:18Z" finished-at="2016-10-19T23:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSnapDeal -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.freelance.test.SnapDealSearchTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="182" started-at="2016-10-19T23:00:23Z" finished-at="2016-10-19T23:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.freelance.test.SnapDealSearchTest -->
       <class name="com.example.freelance.test.SnapDealSearchExcelDataTest">
-        <test-method status="PASS" signature="test(org.testng.ITestContext)[pri:0, instance:com.example.freelance.test.SnapDealSearchExcelDataTest@523884b2]" name="test" is-config="true" duration-ms="1348" started-at="2016-10-19T22:15:28Z" finished-at="2016-10-19T22:15:30Z">
+        <test-method status="PASS" signature="intiDriver(org.testng.ITestContext)[pri:0, instance:com.example.freelance.test.SnapDealSearchExcelDataTest@42d80b78]" name="intiDriver" is-config="true" duration-ms="809" started-at="2016-10-19T23:00:46Z" finished-at="2016-10-19T23:00:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@60c6f5b]]>
+                <![CDATA[org.testng.TestRunner@6ad3381f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="searchSnapDeal(com.example.freelance.test.DataInfo)[pri:0, instance:com.example.freelance.test.SnapDealSearchExcelDataTest@523884b2]" name="searchSnapDeal" duration-ms="6640" started-at="2016-10-19T22:15:30Z" data-provider="searchData" finished-at="2016-10-19T22:15:37Z">
+        </test-method> <!-- intiDriver -->
+        <test-method status="PASS" signature="searchSnapDeal(com.example.freelance.test.DataInfo)[pri:0, instance:com.example.freelance.test.SnapDealSearchExcelDataTest@42d80b78]" name="searchSnapDeal" duration-ms="6601" started-at="2016-10-19T23:00:46Z" data-provider="searchData" finished-at="2016-10-19T23:00:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.example.freelance.test.DataInfo@43e0e544]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchSnapDeal -->
-        <test-method status="PASS" signature="searchSnapDeal(com.example.freelance.test.DataInfo)[pri:0, instance:com.example.freelance.test.SnapDealSearchExcelDataTest@523884b2]" name="searchSnapDeal" duration-ms="5047" started-at="2016-10-19T22:15:37Z" data-provider="searchData" finished-at="2016-10-19T22:15:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.example.freelance.test.DataInfo@601810bc]]>
+                <![CDATA[com.example.freelance.test.DataInfo@68b32e3e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchSnapDeal -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.freelance.test.SnapDealSearchExcelDataTest@523884b2]" name="tearDown" is-config="true" duration-ms="126" started-at="2016-10-19T22:15:42Z" finished-at="2016-10-19T22:15:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.freelance.test.SnapDealSearchExcelDataTest@42d80b78]" name="tearDown" is-config="true" duration-ms="112" started-at="2016-10-19T23:00:53Z" finished-at="2016-10-19T23:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="intiDriver(org.testng.ITestContext)[pri:0, instance:com.example.freelance.test.SnapDealSearchExcelDataTest@42d80b78]" name="intiDriver" is-config="true" duration-ms="812" started-at="2016-10-19T23:00:53Z" finished-at="2016-10-19T23:00:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ad3381f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiDriver -->
+        <test-method status="PASS" signature="searchSnapDeal(com.example.freelance.test.DataInfo)[pri:0, instance:com.example.freelance.test.SnapDealSearchExcelDataTest@42d80b78]" name="searchSnapDeal" duration-ms="5068" started-at="2016-10-19T23:00:54Z" data-provider="searchData" finished-at="2016-10-19T23:00:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.example.freelance.test.DataInfo@39655d3e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSnapDeal -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.freelance.test.SnapDealSearchExcelDataTest@42d80b78]" name="tearDown" is-config="true" duration-ms="108" started-at="2016-10-19T23:00:59Z" finished-at="2016-10-19T23:00:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [LOLRQATestSuite]" parallel="tests" data-provider-thread-count="1">
+<suite thread-count="1" name="Failed suite [LOLRQATestSuite]" data-provider-thread-count="1">
   <parameter name="browser" value="chrome"/>
   <parameter name="url" value="https://www.snapdeal.com"/>
-  <test name="Test1(failed)" parallel="tests">
+  <test name="Test1(failed)">
     <classes>
+      <class name="com.example.freelance.test.SnapDealSearchDataDrivenTest">
+        <methods>
+          <include name="searchSnapDealDataDriven"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.example.freelance.test.SnapDealSearchDataDrivenTest -->
+      <class name="com.example.freelance.test.SnapDealSearchTest">
+        <methods>
+          <include name="intiDriver"/>
+          <include name="searchSnapDeal"/>
+        </methods>
+      </class> <!-- com.example.freelance.test.SnapDealSearchTest -->
       <class name="com.example.freelance.test.SnapDealSearchExcelDataTest">
         <methods>
           <include name="searchSnapDeal"/>
-          <include name="tearDown"/>
-          <include name="test"/>
         </methods>
       </class> <!-- com.example.freelance.test.SnapDealSearchExcelDataTest -->
     </classes>
