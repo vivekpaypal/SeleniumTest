@@ -16,7 +16,7 @@ protected DriverSession session;
 		
 		config.setBrowser(context.getSuite().getParameter("browser"));
 		config.setUrl(context.getSuite().getParameter("url"));
-		 
+		
 		session = new DriverSession(config);
 		session.setDriver();
 		

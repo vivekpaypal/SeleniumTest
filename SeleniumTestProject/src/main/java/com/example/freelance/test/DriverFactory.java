@@ -8,12 +8,15 @@ import java.io.File;
 
 public class DriverFactory {
 	
+	
+	
+	
 	protected DriverFactory() {
 		
 	}
 	
 	public static WebDriver getInstance(String browser){
-		
+		String os =System.getProperty("os.name");
 		
 		if(browser.equals("firefox")){
 			
@@ -22,8 +25,15 @@ public class DriverFactory {
 		}
 		
 		if(browser.equals("chrome")){
-					
-			System.setProperty("webdriver.chrome.driver", new File("./src/main/resources/drivers/chromedriver").getAbsolutePath());	
+			
+			
+			
+			if(os.equals("Mac OS X")){
+			System.setProperty("webdriver.chrome.driver", new File("./src/main/resources/drivers/mac/chromedriver").getAbsolutePath());	
+			}else{
+			System.setProperty("webdriver.chrome.driver", new File("./src/main/resources/drivers/win/chromedriver.exe").getAbsolutePath());	
+				
+			}
 			
 			return new ChromeDriver();
 					
