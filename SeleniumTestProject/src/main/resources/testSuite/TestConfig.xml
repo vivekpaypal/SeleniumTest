@@ -5,14 +5,15 @@
 	data-provider-thread-count="1" annotations="JDK" parallel="tests">
 	
 	
-	<parameter name="browser" value="internetexplorer" />
+	<parameter name="browser" value="chrome" />
 	
-	<parameter name="url" value="www.google.com" />
+	<parameter name="url" value="https://www.snapdeal.com" />
 	<test name="Test1" annotations="JDK" preserve-order="true">
 	
 		<classes>
-			<class name="com.example.freelance.test.SampleTest"/>
-			
+			<class name="com.example.freelance.test.SnapDealSearchTest"/>
+		<class name="com.example.freelance.test.SnapDealSearchDataDrivenTest"/>
+			<class name="com.example.freelance.test.SnapDealSearchExcelDataTest"/>
 		</classes>
 		
 	</test>

@@ -23,6 +23,8 @@ public class DriverFactory {
 		
 		if(browser.equals("chrome")){
 					
+			System.setProperty("webdriver.chrome.driver", new File("./src/main/resources/drivers/chromedriver").getAbsolutePath());	
+			
 			return new ChromeDriver();
 					
 		}
